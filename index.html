@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulários Internos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-image: url('./picture/background-image.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    main.form-buttons {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .btn-container {
+      display: flex;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 12px 20px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      text-align: center;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    .btn.inativo {
+      background-color: #6c757d;
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+
+    .btn.inativo:hover {
+      background-color: #6c757d;
+    }
+
+    .error-msg {
+      font-size: 14px;
+      color: #ffc107;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Escolha o Formulário</h1>
+  </header>
+
+  <main class="form-buttons" id="formList">
+    <div class="btn-container">
+      <a class="btn" href="https://forms.office.com/e/2iHUfuVHca" target="_blank">Controle de Rádios do Terminal</a>
+    </div>
+    <div class="btn-container">
+      <a class="btn" href="https://forms.office.com/e/WxcEtE2Nps" target="_blank">Solicitação de EPI - Grãos</a>
+    </div>
+    <div class="btn-container">
+      <a class="btn" href="https://forms.office.com/e/LptmUzhKDG" target="_blank">Solicitação de Compras</a>
+    </div>
+    <div class="btn-container">
+      <a class="btn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=C02mQPnyNEqxswmSrA5eThOE5r4g3c5PuHQQIOr9asxUN0FLRlFYOVpBWTc2WEFTU1RaSkI0QTQ1Wi4u" target="_blank">Troca de Turno</a>
+    </div>
+       <div class="btn-container">
+      <a class="btn" href="https://forms.office.com/e/Ab2nAJkkSz" target="_blank">Controle de Demanda de Manutenção</a>
+    </div>
+    <div class="btn-container">
+      <a class="btn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=C02mQPnyNEqxswmSrA5eTj8n2QvYlMxLud52X77UwVVUOVJNUUdWT0g0UkUxQVdDOE5XNjFIMkpNSi4u" target="_blank">Controle de chamado Armac</a>
+    </div>
+      <div class="btn-container">
+      <a class="btn" href="https://forms.office.com/e/b0SpFbN8h8" target="_blank">Psindex - Hidrovia Sul</a>
+    </div>
+    <div class="btn-container">
+      <a class="btn" href="https://forms.office.com/e/1x5bXtPvcj" target="_blank">Comunique - Hidrovia Sul</a>
+      </div>
+  </main>
+</body>
+</html>
